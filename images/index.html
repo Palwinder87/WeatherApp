@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pal's Weatherapp</title>
+</head>
+<body>
+    <div class="app-main">
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter City Name..." autocomplete="off">
+        </div>
+
+        <div class="weather-body">
+            <div class="location-details">
+                <div class="city" id="city">City</div>
+                <div class="date"id="date">Date (Day), Year</div>      
+            </div>
+
+            <div class="weather-status">
+                <div class="temperature" id="temperature">Temp&deg;C</div>
+                <div class="description" id="description">NA</div>
+                <div class="windspeed" id="windspeed">Wind Speed</div>
+            </div>      
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
